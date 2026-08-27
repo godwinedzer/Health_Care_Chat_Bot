@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h1>🚁 ChopperOnline - Frontend Application</h1>
+  <p><strong>React + Vite + TypeScript Client</strong></p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+> **Note:** This directory contains the frontend client application for ChopperOnline. For the full project overview, backend setup, and system architecture, please see the [Main Project README](../README.md).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+This project is bootstrapped with Vite to provide a lightning-fast development experience with instant Hot Module Replacement (HMR).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+*   Node.js (v18.x or later)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Installation
+
+Navigate to this directory and install the dependencies:
+
+```bash
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Development Server
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Start the Vite development server:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+### Build for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The built files will be located in the `dist` directory, ready to be served by any static file server or deployed to platforms like Vercel, Netlify, or Firebase Hosting.
+
+## 📂 Project Structure
+
+*   `src/components/` - Reusable UI components and page layouts (Chatbot, Disease List, Header, etc.)
+*   `src/services/` - API integration logic (fetching data from the Express backend)
+*   `src/App.tsx` - Main application routing entry point
+
+## 🔧 Linting and Code Quality
+
+This project uses ESLint with TypeScript configurations to ensure code quality.
+
+```bash
+# Run the linter
+npm run lint
 ```
