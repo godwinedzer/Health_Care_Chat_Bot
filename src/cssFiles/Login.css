@@ -1,0 +1,135 @@
+/* 🌟 General Styles */
+body {
+    height: auto; /* ✅ Allows body to expand naturally */
+    min-height: 100vh; /* ✅ Ensures full-screen height */
+    display: block; /* ✅ Prevents flexbox issues */
+    overflow-y: auto; /* ✅ Allows scrolling */
+}
+
+/* 📌 Centered Login Box */
+.login-container {
+    width: 400px;
+    padding: 35px;
+    background: var(--input-bg, #ffffff);
+    border: 3px solid var(--input-border, #ddd);
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* 🚀 Smooth Hover Effect */
+.login-container:hover {
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+}
+
+/* 📌 Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* 📌 Input Fields */
+.login-input {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid var(--input-border, #ddd);
+    border-radius: 8px;
+    background: var(--input-bg, #ffffff);
+    color: var(--text-color, #333);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-input:focus {
+    border-color: var(--button-bg, #007bff);
+    box-shadow: 0 0 8px var(--button-bg, #007bff);
+    transform: scale(1.05);
+}
+
+/* 📌 Buttons */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: var(--button-bg, #007bff);
+    color: var(--button-text, #fff);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: var(--button-hover, #0056b3);
+    transform: scale(1.05);
+}
+
+.login-button:active {
+    transform: scale(0.98);
+}
+
+/* 📌 Link Button */
+.link-button {
+    background: none;
+    border: none;
+    color: var(--button-bg, #007bff);
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-button:hover {
+    color: var(--button-hover, #0056b3);
+}
+
+/* 📌 Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    animation: shake 0.4s ease-in-out;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 500px) {
+    .login-container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .login-input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .login-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* ✨ Smooth Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+}

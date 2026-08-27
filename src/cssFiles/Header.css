@@ -1,0 +1,287 @@
+/* 🎨 Global Theme Variables */
+:root {
+    --background-color: #ffffff;  /* ✅ Light Mode Background */
+    --button-bg: #007bff;
+    --button-text: #ffffff;
+    --button-hover: #0056b3;
+    --input-border: #ccc;
+    --input-bg: #ffffff;
+    --text-color: #213547;
+    --header-bg: #f8f9fa;
+}
+
+/* 🌙 Dark Mode */
+[data-theme="dark"] {
+    --background-color: #121212;
+    --button-bg: #1E90FF;
+    --button-text: #ffffff;
+    --button-hover: #0F7AE5;
+    --input-border: #444;
+    --input-bg: #333;
+    --text-color: #ffffff;
+    --header-bg: #1c1c1c;
+}
+
+/* ☀ Solarized Mode */
+[data-theme="solarized"] {
+    --background-color: #002b36;
+    --button-bg: #b58900;
+    --button-text: #002b36;
+    --button-hover: #d19a00;
+    --input-border: #586e75;
+    --input-bg: #002b36;
+    --text-color: #eee8d5;
+    --header-bg: #073642;
+}
+
+/* 🌎 Apply Global Theme */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🎩 Header Styling */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: var(--header-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.7s ease-in-out;
+    box-sizing: border-box;
+}
+/* ✅ Fix for Header Overlapping Content */
+body {
+    padding-top: 80px; /* Adjust based on your header height */
+  }
+  
+/* 📷 Logo */
+.logo {
+    height: 45px;
+    max-width: 120px;
+    object-fit: contain;
+}
+
+/* 📝 Title */
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: color 0.7s ease-in-out;
+    margin: 0;
+}
+
+/* 🖥️ Desktop Title Position */
+@media (min-width: 769px) {
+    .title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* 📱 Mobile Title Adjustments */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .logo {
+        height: 40px;
+        max-width: 100px;
+    }
+
+    .title {
+        font-size: 22px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .toggle-btn, .theme-toggle, .logout-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+        min-width: 100px;
+        max-width: 100%;
+    }
+
+    .login-container {
+        width: 95%;
+    }
+}
+
+/* 🎛 Header Controls */
+.header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* 🎛 Toggle Buttons */
+.toggle-btn, .theme-toggle, .logout-btn {
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    min-width: 120px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.toggle-btn {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+}
+
+.toggle-btn:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05);
+}
+
+/* 🚪 Logout Button */
+.logout-btn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: #cc0000;
+}
+
+/* 🎨 Theme Toggle Button */
+.theme-toggle {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+}
+
+.theme-toggle:hover {
+    background-color: var(--button-hover);
+}
+
+/* 🔑 Login Container */
+.login-container {
+    max-width: 400px;
+    width: 90%;
+    background: var(--header-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* ✍️ Form Styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    background: var(--input-bg);
+    color: var(--text-color);
+}
+
+.login-button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: var(--button-hover);
+}
+
+/* ⚠️ Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* 📱 Responsive Adjustments */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .logo {
+        height: 40px;
+        max-width: 100px;
+    }
+
+    .title {
+        font-size: 22px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .toggle-btn, .theme-toggle, .logout-btn {
+        font-size: 12px;
+        padding: 8px 10px;
+        min-width: 100px;
+        max-width: 100%;
+    }
+
+    .login-container {
+        width: 95%;
+    }
+}

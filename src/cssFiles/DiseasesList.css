@@ -1,0 +1,155 @@
+/* 📌 Ensure content starts below the fixed header */
+/* 📌 Ensure content starts below the fixed header */
+.diseases-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 80px; /* ✅ Ensures content starts below the header */
+  text-align: center;
+  box-sizing: border-box;
+  min-height: 100vh; /* ✅ Prevents content from being cut off */
+  overflow-y: visible; /* ✅ Ensures content is not hidden */
+  position: relative; /* ✅ Makes sure content stays inside container */
+}
+
+.diseases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: start; /* ✅ Prevents elements from collapsing */
+  justify-content: center;
+  max-width: 100%;
+  position: relative; /* ✅ Ensures it doesn't get pushed out */
+}
+
+
+
+
+/* 🎯 Title Styling */
+.diseases-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* 🔳 Grid layout for diseases */
+.diseases-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+/* 📦 Disease Card */
+.disease-card {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 🎭 Hover Effect */
+.disease-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 🏥 Disease Name */
+.disease-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* 💡 Sections (Symptoms, Treatment, Home Remedies) */
+.section {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.6rem; /* Reduced padding */
+  /* margin-top: 0.4rem; Reduced space between sections */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.section h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.section ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+/* 🔍 Search Bar */
+.search-bar {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  animation: zoomOut 0.5s ease-in-out;
+}
+
+/* 🔍 Zoom Out Effect on Focus */
+.search-bar:focus {
+  transform: scale(1.2); /* Slight zoom-out effect */
+  border-color: #007bff; /* Highlight border when selected */
+  outline: none; /* Remove default browser outline */
+}
+
+
+/* ✅ Responsive Design */
+@media (max-width: 1200px) {
+  .diseases-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .diseases-container {
+    padding-top: 120px;
+    /* padding-bottom: 70px; */
+  }
+
+  .diseases-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .search-bar {
+    width: 90%;
+  }
+}
+
+/* ✨ Zoom Out Animation */
+@keyframes zoomOut {
+  from {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

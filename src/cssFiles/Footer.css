@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 12px;
+    background-color: black;
+    /* background-color: rgba(0, 0, 0, 0.05); Light background to separate */
+    color: var(--text-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Ensure the footer text doesn't get cut off */
+.footer span {
+    display: inline-block;
+    max-width: 90%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .footer {
+        font-size: 11px;
+        padding: 6px;
+    }
+}

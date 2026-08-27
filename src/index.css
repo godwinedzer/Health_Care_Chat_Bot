@@ -1,0 +1,75 @@
+/* Global styles */
+:root {
+  --primary-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --button-bg: #1a1a1a;
+  --button-hover: #646cff;
+  --link-color: #646cff;
+  --link-hover: #535bf2;
+  
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #213547;
+    --background-color: #ffffff;
+    --button-bg: #f9f9f9;
+    --button-hover: #747bff;
+    --link-color: #646cff;
+    --link-hover: #535bf2;
+  }
+}
+
+/* Ensure full-screen layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh; /* ✅ Allows content to grow beyond viewport */
+  display: block; /* ✅ Removes forced centering */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  background-color: var(--background-color);
+}
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: var(--button-bg);
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+button:hover {
+  border-color: var(--button-hover);
+  background-color: rgba(100, 108, 255, 0.2);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

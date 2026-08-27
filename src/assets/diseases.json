@@ -1,0 +1,1048 @@
+[
+  {
+    "id": 1,
+    "name": "Diabetes",
+    "symptoms": [
+      "Frequent urination",
+      "Increased thirst",
+      "Unexplained weight loss"
+    ],
+    "treatment": ["Insulin therapy", "Healthy diet", "Regular exercise"],
+    "home_remedy": ["Cinnamon water", "Fenugreek seeds", "Aloe vera juice"]
+  },
+  {
+    "id": 2,
+    "name": "Hypertension",
+    "symptoms": ["Headache", "Dizziness", "Blurred vision"],
+    "treatment": [
+      "Blood pressure medication",
+      "Low-sodium diet",
+      "Regular physical activity"
+    ],
+    "home_remedy": [
+      "Garlic consumption",
+      "Hibiscus tea",
+      "Bananas for potassium"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Influenza",
+    "symptoms": ["Fever", "Cough", "Sore throat", "Body aches"],
+    "treatment": ["Antiviral drugs", "Rest", "Fluids"],
+    "home_remedy": ["Ginger tea", "Honey and lemon", "Steam inhalation"]
+  },
+  {
+    "id": 4,
+    "name": "Asthma",
+    "symptoms": ["Shortness of breath", "Wheezing", "Chest tightness"],
+    "treatment": ["Inhalers", "Avoiding triggers", "Breathing exercises"],
+    "home_remedy": [
+      "Turmeric milk",
+      "Honey with warm water",
+      "Steam inhalation"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pneumonia",
+    "symptoms": ["Chest pain", "Fever", "Cough with phlegm"],
+    "treatment": ["Antibiotics", "Rest", "Hydration"],
+    "home_remedy": ["Ginger tea", "Honey and warm water", "Garlic for immunity"]
+  },
+  {
+    "id": 6,
+    "name": "Tuberculosis",
+    "symptoms": ["Chronic cough", "Weight loss", "Night sweats"],
+    "treatment": ["Antibiotics", "Long-term medication", "Nutritional support"],
+    "home_remedy": ["Garlic with honey", "Mint tea", "Turmeric and milk"]
+  },
+  {
+    "id": 7,
+    "name": "Migraine",
+    "symptoms": ["Severe headache", "Sensitivity to light", "Nausea"],
+    "treatment": ["Pain relievers", "Avoiding triggers", "Stress management"],
+    "home_remedy": [
+      "Peppermint oil massage",
+      "Ginger tea",
+      "Cold compress on forehead"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Arthritis",
+    "symptoms": ["Joint pain", "Swelling", "Stiffness"],
+    "treatment": [
+      "Anti-inflammatory drugs",
+      "Physical therapy",
+      "Joint injections"
+    ],
+    "home_remedy": ["Turmeric milk", "Epsom salt bath", "Ginger tea"]
+  },
+  {
+    "id": 9,
+    "name": "Acid Reflux",
+    "symptoms": ["Heartburn", "Regurgitation", "Difficulty swallowing"],
+    "treatment": ["Antacids", "Diet modification", "Avoiding trigger foods"],
+    "home_remedy": ["Apple cider vinegar", "Ginger tea", "Chewing basil leaves"]
+  },
+  {
+    "id": 10,
+    "name": "Anemia",
+    "symptoms": ["Fatigue", "Pale skin", "Shortness of breath"],
+    "treatment": [
+      "Iron supplements",
+      "Blood transfusion (severe cases)",
+      "Dietary changes"
+    ],
+    "home_remedy": ["Beetroot juice", "Spinach soup", "Pomegranate juice"]
+  },
+  {
+    "id": 11,
+    "name": "Common Cold",
+    "symptoms": ["Runny nose", "Sneezing", "Sore throat"],
+    "treatment": ["Decongestants", "Rest", "Fluids"],
+    "home_remedy": [
+      "Ginger and honey tea",
+      "Steam inhalation",
+      "Vitamin C-rich foods"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Food Poisoning",
+    "symptoms": ["Nausea", "Vomiting", "Diarrhea"],
+    "treatment": [
+      "Electrolyte replenishment",
+      "Antibiotics (if bacterial)",
+      "Rest"
+    ],
+    "home_remedy": ["Activated charcoal", "Ginger tea", "Coconut water"]
+  },
+  {
+    "id": 13,
+    "name": "Constipation",
+    "symptoms": ["Hard stools", "Infrequent bowel movements", "Abdominal pain"],
+    "treatment": ["Fiber supplements", "Laxatives", "Hydration"],
+    "home_remedy": ["Prune juice", "Warm lemon water", "Flaxseeds"]
+  },
+  {
+    "id": 14,
+    "name": "Diarrhea",
+    "symptoms": ["Loose stools", "Dehydration", "Abdominal cramps"],
+    "treatment": ["Oral rehydration therapy", "Probiotics", "Avoiding dairy"],
+    "home_remedy": ["Rice water", "Bananas", "Yogurt"]
+  },
+  {
+    "id": 15,
+    "name": "Urinary Tract Infection",
+    "symptoms": [
+      "Burning sensation while urinating",
+      "Frequent urination",
+      "Cloudy urine"
+    ],
+    "treatment": [
+      "Antibiotics",
+      "Drinking plenty of fluids",
+      "Cranberry juice"
+    ],
+    "home_remedy": ["Baking soda water", "Coconut water", "Clove tea"]
+  },
+  {
+    "id": 16,
+    "name": "Obesity",
+    "symptoms": ["Excessive weight gain", "Shortness of breath", "Joint pain"],
+    "treatment": ["Weight management programs", "Diet changes", "Exercise"],
+    "home_remedy": ["Lemon water in the morning", "Green tea", "Cinnamon tea"]
+  },
+  {
+    "id": 17,
+    "name": "Kidney Stones",
+    "symptoms": ["Severe abdominal pain", "Painful urination", "Nausea"],
+    "treatment": [
+      "Pain management",
+      "Hydration",
+      "Surgical removal (if large)"
+    ],
+    "home_remedy": [
+      "Lemon juice and olive oil",
+      "Pomegranate juice",
+      "Dandelion tea"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Dengue Fever",
+    "symptoms": ["High fever", "Skin rash", "Severe body aches"],
+    "treatment": ["Pain relievers", "Hydration", "Rest"],
+    "home_remedy": ["Papaya leaf juice", "Coriander juice", "Coconut water"]
+  },
+  {
+    "id": 19,
+    "name": "Typhoid Fever",
+    "symptoms": ["High fever", "Abdominal pain", "Fatigue"],
+    "treatment": ["Antibiotics", "Hydration", "Rest"],
+    "home_remedy": ["Clove tea", "Buttermilk", "Basil leaves"]
+  },
+  {
+    "id": 20,
+    "name": "Jaundice",
+    "symptoms": ["Yellowing of skin and eyes", "Fatigue", "Abdominal pain"],
+    "treatment": ["Liver support therapy", "Hydration", "Rest"],
+    "home_remedy": ["Sugarcane juice", "Radish juice", "Lemon juice"]
+  },
+  {
+    "id": 21,
+    "name": "Malaria",
+    "symptoms": ["High fever", "Chills", "Sweating", "Nausea"],
+    "treatment": ["Antimalarial drugs", "Hydration", "Rest"],
+    "home_remedy": ["Neem leaves", "Ginger tea", "Cinnamon water"]
+  },
+  {
+    "id": 22,
+    "name": "Chikungunya",
+    "symptoms": ["High fever", "Joint pain", "Skin rash"],
+    "treatment": ["Pain relievers", "Hydration", "Rest"],
+    "home_remedy": ["Papaya leaf juice", "Turmeric milk", "Coconut water"]
+  },
+  {
+    "id": 23,
+    "name": "Hepatitis B",
+    "symptoms": ["Fatigue", "Jaundice", "Loss of appetite"],
+    "treatment": ["Antiviral medication", "Liver support therapy", "Rest"],
+    "home_remedy": ["Papaya seeds", "Licorice root tea", "Green tea"]
+  },
+  {
+    "id": 24,
+    "name": "Chickenpox",
+    "symptoms": ["Itchy rash", "Fever", "Fatigue"],
+    "treatment": ["Antihistamines", "Calamine lotion", "Rest"],
+    "home_remedy": ["Oatmeal bath", "Neem leaves", "Aloe vera gel"]
+  },
+  {
+    "id": 25,
+    "name": "Measles",
+    "symptoms": ["Fever", "Cough", "Red rash"],
+    "treatment": ["Vitamin A supplements", "Rest", "Hydration"],
+    "home_remedy": ["Turmeric milk", "Basil leaves", "Honey and lemon"]
+  },
+  {
+    "id": 26,
+    "name": "Mumps",
+    "symptoms": ["Swollen glands", "Fever", "Headache"],
+    "treatment": ["Pain relievers", "Rest", "Hydration"],
+    "home_remedy": ["Ginger paste", "Aloe vera gel", "Warm saltwater gargle"]
+  },
+  {
+    "id": 27,
+    "name": "Tonsillitis",
+    "symptoms": ["Sore throat", "Difficulty swallowing", "Swollen tonsils"],
+    "treatment": ["Antibiotics (if bacterial)", "Pain relievers", "Rest"],
+    "home_remedy": ["Saltwater gargle", "Ginger tea", "Honey and lemon"]
+  },
+  {
+    "id": 28,
+    "name": "Sinusitis",
+    "symptoms": ["Facial pain", "Nasal congestion", "Headache"],
+    "treatment": [
+      "Decongestants",
+      "Antibiotics (if bacterial)",
+      "Steam inhalation"
+    ],
+    "home_remedy": ["Eucalyptus steam", "Turmeric tea", "Garlic soup"]
+  },
+  {
+    "id": 29,
+    "name": "Bronchitis",
+    "symptoms": ["Persistent cough", "Chest discomfort", "Shortness of breath"],
+    "treatment": ["Cough suppressants", "Rest", "Hydration"],
+    "home_remedy": ["Ginger tea", "Honey and warm water", "Steam inhalation"]
+  },
+  {
+    "id": 30,
+    "name": "Epilepsy",
+    "symptoms": ["Seizures", "Loss of awareness", "Uncontrolled movements"],
+    "treatment": [
+      "Antiepileptic drugs",
+      "Brain surgery (severe cases)",
+      "Dietary changes"
+    ],
+    "home_remedy": ["Coconut oil", "Magnesium-rich foods", "Basil tea"]
+  },
+  {
+    "id": 31,
+    "name": "Stroke",
+    "symptoms": ["Sudden numbness", "Loss of coordination", "Slurred speech"],
+    "treatment": ["Clot-busting medication", "Physical therapy", "Surgery"],
+    "home_remedy": ["Turmeric", "Green tea", "Omega-3 rich foods"]
+  },
+  {
+    "id": 32,
+    "name": "Alzheimer’s Disease",
+    "symptoms": ["Memory loss", "Confusion", "Difficulty solving problems"],
+    "treatment": ["Cognitive therapy", "Medications", "Healthy diet"],
+    "home_remedy": ["Coconut oil", "Turmeric", "Gingko biloba"]
+  },
+  {
+    "id": 33,
+    "name": "Parkinson’s Disease",
+    "symptoms": ["Tremors", "Muscle stiffness", "Slow movement"],
+    "treatment": ["Dopamine therapy", "Physical therapy", "Brain stimulation"],
+    "home_remedy": ["Turmeric", "Green tea", "Omega-3 supplements"]
+  },
+  {
+    "id": 34,
+    "name": "Depression",
+    "symptoms": ["Persistent sadness", "Fatigue", "Loss of interest"],
+    "treatment": ["Antidepressants", "Therapy", "Lifestyle changes"],
+    "home_remedy": ["Exercise", "Chamomile tea", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 35,
+    "name": "Anxiety",
+    "symptoms": ["Excessive worry", "Rapid heartbeat", "Sweating"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Anti-anxiety medications",
+      "Breathing exercises"
+    ],
+    "home_remedy": ["Lavender tea", "Meditation", "Ashwagandha"]
+  },
+  {
+    "id": 36,
+    "name": "Obstructive Sleep Apnea",
+    "symptoms": [
+      "Loud snoring",
+      "Daytime sleepiness",
+      "Breathing pauses during sleep"
+    ],
+    "treatment": ["CPAP machine", "Lifestyle changes", "Surgery"],
+    "home_remedy": [
+      "Peppermint oil",
+      "Honey before bed",
+      "Maintaining sleep posture"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Eczema",
+    "symptoms": ["Itchy skin", "Redness", "Dry patches"],
+    "treatment": ["Moisturizers", "Steroid creams", "Antihistamines"],
+    "home_remedy": ["Aloe vera gel", "Coconut oil", "Oatmeal bath"]
+  },
+  {
+    "id": 38,
+    "name": "Psoriasis",
+    "symptoms": ["Red, scaly patches", "Itchy skin", "Dryness"],
+    "treatment": ["Topical steroids", "UV therapy", "Biologic drugs"],
+    "home_remedy": ["Aloe vera gel", "Coconut oil", "Turmeric"]
+  },
+  {
+    "id": 39,
+    "name": "Gastritis",
+    "symptoms": ["Stomach pain", "Nausea", "Bloating"],
+    "treatment": ["Antacids", "Diet modification", "Avoiding irritants"],
+    "home_remedy": ["Ginger tea", "Coconut water", "Chamomile tea"]
+  },
+  {
+    "id": 40,
+    "name": "Gallstones",
+    "symptoms": ["Abdominal pain", "Nausea", "Indigestion"],
+    "treatment": ["Surgery", "Pain management", "Lifestyle changes"],
+    "home_remedy": ["Apple cider vinegar", "Lemon juice", "Turmeric"]
+  },
+  {
+    "id": 41,
+    "name": "Hernia",
+    "symptoms": [
+      "Bulging lump",
+      "Pain while lifting",
+      "Discomfort in the abdomen"
+    ],
+    "treatment": ["Surgery", "Pain management", "Avoiding heavy lifting"],
+    "home_remedy": ["Aloe vera juice", "Chamomile tea", "Avoid heavy meals"]
+  },
+  {
+    "id": 42,
+    "name": "Varicose Veins",
+    "symptoms": ["Swollen veins", "Leg pain", "Heaviness in legs"],
+    "treatment": ["Compression therapy", "Surgery", "Lifestyle changes"],
+    "home_remedy": [
+      "Horse chestnut extract",
+      "Apple cider vinegar",
+      "Elevating legs"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Urinary Tract Infection (UTI)",
+    "symptoms": [
+      "Burning sensation while urinating",
+      "Frequent urination",
+      "Cloudy urine"
+    ],
+    "treatment": ["Antibiotics", "Hydration", "Pain relievers"],
+    "home_remedy": ["Cranberry juice", "Probiotics", "Drinking plenty of water"]
+  },
+  {
+    "id": 44,
+    "name": "Kidney Stones",
+    "symptoms": ["Severe back pain", "Painful urination", "Blood in urine"],
+    "treatment": ["Pain relievers", "Hydration", "Medical procedures"],
+    "home_remedy": [
+      "Lemon juice with water",
+      "Apple cider vinegar",
+      "Basil tea"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Appendicitis",
+    "symptoms": ["Severe abdominal pain", "Nausea", "Fever"],
+    "treatment": ["Surgery", "Pain management", "Antibiotics"],
+    "home_remedy": ["Ginger tea", "Fenugreek seeds", "Buttermilk"]
+  },
+  {
+    "id": 46,
+    "name": "Hepatitis C",
+    "symptoms": ["Fatigue", "Jaundice", "Loss of appetite"],
+    "treatment": [
+      "Antiviral medication",
+      "Liver support therapy",
+      "Lifestyle changes"
+    ],
+    "home_remedy": ["Turmeric milk", "Licorice root tea", "Green tea"]
+  },
+  {
+    "id": 47,
+    "name": "Dengue Fever",
+    "symptoms": ["High fever", "Severe headache", "Joint and muscle pain"],
+    "treatment": ["Pain relievers", "Hydration", "Rest"],
+    "home_remedy": ["Papaya leaf juice", "Coconut water", "Neem tea"]
+  },
+  {
+    "id": 48,
+    "name": "Tuberculosis (TB)",
+    "symptoms": ["Persistent cough", "Night sweats", "Weight loss"],
+    "treatment": ["Antibiotic therapy", "Rest", "Proper nutrition"],
+    "home_remedy": ["Garlic", "Black pepper", "Banana smoothie"]
+  },
+  {
+    "id": 49,
+    "name": "Pneumonia",
+    "symptoms": ["Chest pain", "Cough with phlegm", "Difficulty breathing"],
+    "treatment": ["Antibiotics", "Pain relievers", "Rest"],
+    "home_remedy": ["Turmeric milk", "Steam inhalation", "Honey and lemon tea"]
+  },
+  {
+    "id": 50,
+    "name": "Asthma",
+    "symptoms": ["Shortness of breath", "Wheezing", "Coughing"],
+    "treatment": ["Bronchodilators", "Inhalers", "Steroids"],
+    "home_remedy": ["Ginger tea", "Honey and warm water", "Black coffee"]
+  },
+  {
+    "id": 51,
+    "name": "Chronic Fatigue Syndrome",
+    "symptoms": ["Extreme fatigue", "Sleep problems", "Muscle pain"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": [
+      "Ginger tea",
+      "Regular light exercise",
+      "Adequate hydration"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Hypothyroidism",
+    "symptoms": ["Fatigue", "Weight gain", "Cold intolerance"],
+    "treatment": [
+      "Thyroid hormone replacement",
+      "Regular monitoring",
+      "Dietary changes"
+    ],
+    "home_remedy": ["Iodine-rich foods", "Seaweed", "Coconut oil"]
+  },
+  {
+    "id": 53,
+    "name": "Hyperthyroidism",
+    "symptoms": ["Weight loss", "Rapid heartbeat", "Nervousness"],
+    "treatment": ["Antithyroid medications", "Radioactive iodine", "Surgery"],
+    "home_remedy": ["Lemon balm tea", "Bugleweed", "Avoiding caffeine"]
+  },
+  {
+    "id": 54,
+    "name": "Celiac Disease",
+    "symptoms": ["Diarrhea", "Bloating", "Fatigue"],
+    "treatment": [
+      "Gluten-free diet",
+      "Nutritional supplements",
+      "Regular check-ups"
+    ],
+    "home_remedy": ["Ginger tea", "Probiotics", "Bone broth"]
+  },
+  {
+    "id": 55,
+    "name": "Irritable Bowel Syndrome (IBS)",
+    "symptoms": ["Abdominal pain", "Bloating", "Changes in bowel habits"],
+    "treatment": ["Dietary changes", "Medications", "Stress management"],
+    "home_remedy": ["Peppermint tea", "Ginger tea", "Probiotics"]
+  },
+  {
+    "id": 56,
+    "name": "Gout",
+    "symptoms": ["Joint pain", "Swelling", "Redness"],
+    "treatment": [
+      "Anti-inflammatory medications",
+      "Diet modification",
+      "Hydration"
+    ],
+    "home_remedy": ["Cherry juice", "Apple cider vinegar", "Ginger tea"]
+  },
+  {
+    "id": 57,
+    "name": "Fibromyalgia",
+    "symptoms": ["Widespread pain", "Fatigue", "Sleep disturbances"],
+    "treatment": ["Pain relievers", "Antidepressants", "Physical therapy"],
+    "home_remedy": ["Epsom salt bath", "Ginger tea", "Regular exercise"]
+  },
+  {
+    "id": 58,
+    "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing"],
+    "treatment": ["Bronchodilators", "Steroids", "Pulmonary rehabilitation"],
+    "home_remedy": ["Ginger tea", "Turmeric milk", "Steam inhalation"]
+  },
+  {
+    "id": 59,
+    "name": "Psoriatic Arthritis",
+    "symptoms": ["Joint pain", "Stiffness", "Red patches on skin"],
+    "treatment": [
+      "Anti-inflammatory medications",
+      "Physical therapy",
+      "Biologics"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Epsom salt bath"]
+  },
+  {
+    "id": 60,
+    "name": "Chronic Sinusitis",
+    "symptoms": ["Facial pain", "Nasal congestion", "Headache"],
+    "treatment": [
+      "Nasal corticosteroids",
+      "Saline nasal irrigation",
+      "Antibiotics (if bacterial)"
+    ],
+    "home_remedy": ["Steam inhalation", "Eucalyptus oil", "Ginger tea"]
+  },
+  {
+    "id": 61,
+    "name": "Bipolar Disorder",
+    "symptoms": ["Mood swings", "Depression", "Mania"],
+    "treatment": ["Mood stabilizers", "Therapy", "Lifestyle changes"],
+    "home_remedy": ["Regular exercise", "Meditation", "Healthy diet"]
+  },
+  {
+    "id": 62,
+    "name": "Post-Traumatic Stress Disorder (PTSD)",
+    "symptoms": ["Flashbacks", "Anxiety", "Sleep disturbances"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Support groups"
+    ],
+    "home_remedy": ["Meditation", "Yoga", "Chamomile tea"]
+  },
+  {
+    "id": 63,
+    "name": "Osteoporosis",
+    "symptoms": ["Bone fractures", "Loss of height", "Back pain"],
+    "treatment": [
+      "Calcium and vitamin D supplements",
+      "Medications",
+      "Weight-bearing exercises"
+    ],
+    "home_remedy": ["Leafy greens", "Nuts", "Fish"]
+  },
+  {
+    "id": 64,
+    "name": "Scleroderma",
+    "symptoms": ["Skin thickening", "Joint pain", "Fatigue"],
+    "treatment": [
+      "Immunosuppressants",
+      "Physical therapy",
+      "Symptom management"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 65,
+    "name": "Multiple Sclerosis",
+    "symptoms": ["Numbness", "Fatigue", "Difficulty walking"],
+    "treatment": [
+      "Disease-modifying therapies",
+      "Physical therapy",
+      "Symptom management"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Vitamin D-rich foods"]
+  },
+  {
+    "id": 66,
+    "name": "Lupus",
+    "symptoms": ["Fatigue", "Joint pain", "Skin rashes"],
+    "treatment": [
+      "Immunosuppressants",
+      "Anti-inflammatory medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 67,
+    "name": "Ankylosing Spondylitis",
+    "symptoms": ["Back pain", "Stiffness", "Reduced flexibility"],
+    "treatment": [
+      "Anti-inflammatory medications",
+      "Physical therapy",
+      "Exercise"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Hot compress"]
+  },
+  {
+    "id": 68,
+    "name": "Chronic Kidney Disease",
+    "symptoms": ["Fatigue", "Swelling", "Changes in urination"],
+    "treatment": ["Dietary changes", "Medications", "Dialysis (severe cases)"],
+    "home_remedy": ["Cranberry juice", "Dandelion tea", "Hydration"]
+  },
+  {
+    "id": 69,
+    "name": "Acne",
+    "symptoms": ["Pimples", "Oily skin", "Scarring"],
+    "treatment": ["Topical treatments", "Oral medications", "Skincare routine"],
+    "home_remedy": ["Tea tree oil", "Aloe vera gel", "Honey"]
+  },
+  {
+    "id": 70,
+    "name": "Rosacea",
+    "symptoms": ["Facial redness", "Pimples", "Visible blood vessels"],
+    "treatment": ["Topical medications", "Oral antibiotics", "Laser therapy"],
+    "home_remedy": ["Green tea", "Aloe vera gel", "Chamomile tea"]
+  },
+  {
+    "id": 71,
+    "name": "Tinnitus",
+    "symptoms": ["Ringing in the ears", "Hearing loss", "Ear fullness"],
+    "treatment": [
+      "Hearing aids",
+      "Sound therapy",
+      "Cognitive behavioral therapy"
+    ],
+    "home_remedy": ["Ginger tea", "Garlic oil", "Avoiding loud noises"]
+  },
+  {
+    "id": 72,
+    "name": "Vertigo",
+    "symptoms": ["Dizziness", "Balance issues", "Nausea"],
+    "treatment": [
+      "Vestibular rehabilitation",
+      "Medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": ["Ginger tea", "Hydration", "Rest"]
+  },
+  {
+    "id": 73,
+    "name": "Carpal Tunnel Syndrome",
+    "symptoms": ["Numbness", "Tingling", "Weakness in hand"],
+    "treatment": [
+      "Wrist splints",
+      "Physical therapy",
+      "Surgery (severe cases)"
+    ],
+    "home_remedy": ["Cold compress", "Wrist exercises", "Turmeric"]
+  },
+  {
+    "id": 74,
+    "name": "Tendonitis",
+    "symptoms": ["Pain", "Swelling", "Stiffness"],
+    "treatment": ["Rest", "Physical therapy", "Medications"],
+    "home_remedy": ["Ice packs", "Turmeric", "Epsom salt bath"]
+  },
+  {
+    "id": 75,
+    "name": "Bursitis",
+    "symptoms": ["Joint pain", "Swelling", "Limited movement"],
+    "treatment": ["Rest", "Ice therapy", "Medications"],
+    "home_remedy": ["Turmeric", "Ginger tea", "Warm compress"]
+  },
+  {
+    "id": 76,
+    "name": "Tennis Elbow",
+    "symptoms": ["Pain on the outer elbow", "Weak grip", "Stiffness"],
+    "treatment": ["Rest", "Physical therapy", "Bracing"],
+    "home_remedy": ["Ice packs", "Turmeric", "Epsom salt bath"]
+  },
+  {
+    "id": 77,
+    "name": "Shingles",
+    "symptoms": ["Painful rash", "Itching", "Burning sensation"],
+    "treatment": ["Antiviral medications", "Pain relievers", "Cool compresses"],
+    "home_remedy": ["Oatmeal bath", "Aloe vera gel", "Chamomile tea"]
+  },
+  {
+    "id": 78,
+    "name": "Chronic Pain Syndrome",
+    "symptoms": ["Persistent pain", "Fatigue", "Sleep disturbances"],
+    "treatment": [
+      "Pain management",
+      "Physical therapy",
+      "Cognitive behavioral therapy"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Regular exercise"]
+  },
+  {
+    "id": 79,
+    "name": "Sleep Disorders",
+    "symptoms": ["Insomnia", "Daytime sleepiness", "Difficulty concentrating"],
+    "treatment": [
+      "Sleep hygiene practices",
+      "Cognitive behavioral therapy",
+      "Medications"
+    ],
+    "home_remedy": ["Chamomile tea", "Lavender oil", "Warm milk"]
+  },
+  {
+    "id": 80,
+    "name": "Restless Legs Syndrome",
+    "symptoms": [
+      "Uncomfortable sensations in legs",
+      "Urge to move",
+      "Sleep disturbances"
+    ],
+    "treatment": [
+      "Lifestyle changes",
+      "Medications",
+      "Iron supplements (if low)"
+    ],
+    "home_remedy": ["Warm baths", "Leg massages", "Magnesium-rich foods"]
+  },
+  {
+    "id": 81,
+    "name": "Chronic Migraines",
+    "symptoms": ["Severe headaches", "Nausea", "Sensitivity to light"],
+    "treatment": [
+      "Preventive medications",
+      "Pain relievers",
+      "Lifestyle changes"
+    ],
+    "home_remedy": ["Peppermint oil", "Ginger tea", "Cold compress"]
+  },
+  {
+    "id": 82,
+    "name": "Seasonal Affective Disorder (SAD)",
+    "symptoms": ["Depression", "Fatigue", "Changes in sleep patterns"],
+    "treatment": ["Light therapy", "Antidepressants", "Therapy"],
+    "home_remedy": ["Sunlight exposure", "Exercise", "Vitamin D-rich foods"]
+  },
+  {
+    "id": 83,
+    "name": "Panic Disorder",
+    "symptoms": ["Panic attacks", "Rapid heartbeat", "Sweating"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Relaxation techniques"
+    ],
+    "home_remedy": ["Deep breathing exercises", "Lavender tea", "Meditation"]
+  },
+  {
+    "id": 84,
+    "name": "Obsessive-Compulsive Disorder (OCD)",
+    "symptoms": ["Obsessions", "Compulsions", "Anxiety"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Support groups"
+    ],
+    "home_remedy": [
+      "Mindfulness meditation",
+      "Deep breathing",
+      "Regular exercise"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Social Anxiety Disorder",
+    "symptoms": [
+      "Intense fear of social situations",
+      "Avoidance",
+      "Physical symptoms"
+    ],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Exposure therapy"
+    ],
+    "home_remedy": ["Deep breathing exercises", "Meditation", "Journaling"]
+  },
+  {
+    "id": 86,
+    "name": "Eating Disorders",
+    "symptoms": [
+      "Extreme weight loss or gain",
+      "Distorted body image",
+      "Preoccupation with food"
+    ],
+    "treatment": ["Therapy", "Nutritional counseling", "Medications"],
+    "home_remedy": ["Mindful eating", "Regular meals", "Support groups"]
+  },
+  {
+    "id": 87,
+    "name": "Alcohol Use Disorder",
+    "symptoms": [
+      "Inability to control drinking",
+      "Withdrawal symptoms",
+      "Neglecting responsibilities"
+    ],
+    "treatment": ["Counseling", "Medications", "Support groups"],
+    "home_remedy": ["Regular exercise", "Healthy diet", "Mindfulness practices"]
+  },
+  {
+    "id": 88,
+    "name": "Drug Addiction",
+    "symptoms": [
+      "Compulsive drug seeking",
+      "Neglecting responsibilities",
+      "Withdrawal symptoms"
+    ],
+    "treatment": ["Rehabilitation programs", "Counseling", "Medications"],
+    "home_remedy": [
+      "Support groups",
+      "Healthy lifestyle changes",
+      "Mindfulness practices"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Chronic Stress",
+    "symptoms": ["Anxiety", "Fatigue", "Sleep disturbances"],
+    "treatment": [
+      "Stress management techniques",
+      "Therapy",
+      "Lifestyle changes"
+    ],
+    "home_remedy": ["Meditation", "Yoga", "Deep breathing exercises"]
+  },
+  {
+    "id": 90,
+    "name": "Burnout",
+    "symptoms": ["Exhaustion", "Cynicism", "Reduced performance"],
+    "treatment": ["Time off work", "Therapy", "Lifestyle changes"],
+    "home_remedy": ["Regular breaks", "Mindfulness practices", "Exercise"]
+  },
+  {
+    "id": 91,
+    "name": "Chronic Inflammation",
+    "symptoms": ["Pain", "Fatigue", "Swelling"],
+    "treatment": [
+      "Anti-inflammatory medications",
+      "Dietary changes",
+      "Lifestyle modifications"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 92,
+    "name": "Chronic Fatigue",
+    "symptoms": [
+      "Persistent tiredness",
+      "Sleep disturbances",
+      "Cognitive difficulties"
+    ],
+    "treatment": ["Lifestyle changes", "Medications", "Therapy"],
+    "home_remedy": [
+      "Adequate hydration",
+      "Balanced diet",
+      "Regular light exercise"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Chronic Pain",
+    "symptoms": ["Persistent pain", "Fatigue", "Sleep disturbances"],
+    "treatment": [
+      "Pain management",
+      "Physical therapy",
+      "Cognitive behavioral therapy"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Regular exercise"]
+  },
+  {
+    "id": 94,
+    "name": "Chronic Bronchitis",
+    "symptoms": ["Cough", "Mucus production", "Shortness of breath"],
+    "treatment": ["Bronchodilators", "Steroids", "Pulmonary rehabilitation"],
+    "home_remedy": ["Ginger tea", "Honey and lemon", "Steam inhalation"]
+  },
+  {
+    "id": 95,
+    "name": "Chronic Liver Disease",
+    "symptoms": ["Fatigue", "Jaundice", "Abdominal pain"],
+    "treatment": [
+      "Medications",
+      "Dietary changes",
+      "Liver transplant (severe cases)"
+    ],
+    "home_remedy": ["Milk thistle", "Turmeric", "Green tea"]
+  },
+  {
+    "id": 96,
+    "name": "Chronic Heart Disease",
+    "symptoms": ["Chest pain", "Shortness of breath", "Fatigue"],
+    "treatment": ["Medications", "Lifestyle changes", "Surgery (if severe)"],
+    "home_remedy": ["Garlic", "Olive oil", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 97,
+    "name": "Chronic Lung Disease",
+    "symptoms": ["Shortness of breath", "Chronic cough", "Fatigue"],
+    "treatment": ["Medications", "Pulmonary rehabilitation", "Oxygen therapy"],
+    "home_remedy": ["Ginger tea", "Turmeric milk", "Steam inhalation"]
+  },
+  {
+    "id": 98,
+    "name": "Chronic Fatigue Syndrome",
+    "symptoms": ["Extreme fatigue", "Sleep problems", "Muscle pain"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": [
+      "Ginger tea",
+      "Regular light exercise",
+      "Adequate hydration"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Chronic Kidney Disease",
+    "symptoms": ["Fatigue", "Swelling", "Changes in urination"],
+    "treatment": ["Dietary changes", "Medications", "Dialysis (severe cases)"],
+    "home_remedy": ["Cranberry juice", "Dandelion tea", "Hydration"]
+  },
+  {
+    "id": 100,
+    "name": "Chronic Heart Failure",
+    "symptoms": ["Shortness of breath", "Fatigue", "Swelling in legs"],
+    "treatment": ["Medications", "Lifestyle changes", "Monitoring weight"],
+    "home_remedy": ["Low-sodium diet", "Regular light exercise", "Hydration"]
+  },
+  {
+    "id": 101,
+    "name": "Chronic Pain Syndrome",
+    "symptoms": ["Persistent pain", "Fatigue", "Sleep disturbances"],
+    "treatment": [
+      "Pain management",
+      "Physical therapy",
+      "Cognitive behavioral therapy"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Regular exercise"]
+  },
+  {
+    "id": 102,
+    "name": "Chronic Inflammatory Response Syndrome",
+    "symptoms": ["Fatigue", "Muscle pain", "Cognitive difficulties"],
+    "treatment": [
+      "Anti-inflammatory medications",
+      "Dietary changes",
+      "Lifestyle modifications"
+    ],
+    "home_remedy": ["Turmeric", "Ginger tea", "Omega-3 fatty acids"]
+  },
+  {
+    "id": 103,
+    "name": "Chronic Fatigue Immune Dysfunction Syndrome",
+    "symptoms": [
+      "Severe fatigue",
+      "Sleep disturbances",
+      "Cognitive difficulties"
+    ],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": [
+      "Adequate hydration",
+      "Balanced diet",
+      "Regular light exercise"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Chronic Lyme Disease",
+    "symptoms": ["Fatigue", "Joint pain", "Neurological symptoms"],
+    "treatment": ["Antibiotics", "Symptom management", "Physical therapy"],
+    "home_remedy": ["Turmeric", "Ginger tea", "Probiotics"]
+  },
+  {
+    "id": 105,
+    "name": "Chronic Sinusitis",
+    "symptoms": ["Facial pain", "Nasal congestion", "Headache"],
+    "treatment": [
+      "Nasal corticosteroids",
+      "Saline nasal irrigation",
+      "Antibiotics (if bacterial)"
+    ],
+    "home_remedy": ["Steam inhalation", "Eucalyptus oil", "Ginger tea"]
+  },
+  {
+    "id": 106,
+    "name": "Chronic Bronchitis",
+    "symptoms": ["Cough", "Mucus production", "Shortness of breath"],
+    "treatment": ["Bronchodilators", "Steroids", "Pulmonary rehabilitation"],
+    "home_remedy": ["Ginger tea", "Honey and lemon", "Steam inhalation"]
+  },
+  {
+    "id": 107,
+    "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing"],
+    "treatment": ["Bronchodilators", "Steroids", "Pulmonary rehabilitation"],
+    "home_remedy": ["Ginger tea", "Turmeric milk", "Steam inhalation"]
+  },
+  {
+    "id": 108,
+    "name": "Chronic Fatigue Syndrome",
+    "symptoms": ["Extreme fatigue", "Sleep problems", "Muscle pain"],
+    "treatment": [
+      "Cognitive behavioral therapy",
+      "Medications",
+      "Lifestyle changes"
+    ],
+    "home_remedy": [
+      "Ginger tea",
+      "Regular light exercise",
+      "Adequate hydration"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Chronic Kidney Disease",
+    "symptoms": ["Fatigue", "Swelling", "Changes in urination"],
+    "treatment": ["Dietary changes", "Medications", "Dialysis (severe cases)"],
+    "home_remedy": ["Cranberry juice", "Dandelion tea", "Hydration"]
+  },
+  {
+    "id": 110,
+    "name": "Chronic Heart Failure",
+    "symptoms": ["Shortness of breath", "Fatigue", "Swelling in legs"],
+    "treatment": ["Medications", "Lifestyle changes", "Monitoring weight"],
+    "home_remedy": ["Low-sodium diet", "Regular light exercise", "Hydration"]
+  }
+]
