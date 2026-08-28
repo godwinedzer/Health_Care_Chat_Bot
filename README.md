@@ -60,22 +60,6 @@ Users can ask natural language health queries and receive structured responses �
   <em>Querying home remedies for wheezing lungs — the chatbot returns symptoms, remedies, and medical advice.</em>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="./screenshots/chatbot_demo2.png" alt="Chatbot Demo - Multi-turn conversation" width="90%" />
-  <br/>
-  <em>Multi-turn conversation support — the chatbot handles follow-up queries seamlessly.</em>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./screenshots/chatbot_demo3.png" alt="Chatbot Demo - Cold remedy response" width="90%" />
-  <br/>
-  <em>Asking "can cold be cured at home?" — structured AI response with symptoms and home remedies.</em>
-</div>
-
 ---
 
 ### 🛠️ Development Environment
@@ -126,25 +110,25 @@ Users can ask natural language health queries and receive structured responses �
 ```mermaid
 graph TD
     subgraph Client ["🖥️ Client — React 19 + TypeScript (Vite)"]
-        A["Login.tsx<br/>Firebase Auth"] --> B["Chatbot.tsx<br/>Chat Interface"]
-        B --> C["Header.tsx<br/>Diseases List · Theme Toggle"]
-        B --> D["DiseasesList.tsx<br/>Conditions Panel"]
+        A["Login.tsx - Firebase Auth"] --> B["Chatbot.tsx - Chat Interface"]
+        B --> C["Header.tsx - Diseases List & Theme Toggle"]
+        B --> D["DiseasesList.tsx - Conditions Panel"]
     end
 
     subgraph Backend ["⚙️ Backend — Node.js + Express"]
-        E["Express Gateway<br/>:5000"] --> F["/api/chat<br/>LLM Inference"]
-        E --> G["/api/symptom-checker<br/>Diagnostics"]
+        E["Express Gateway :5000"] --> F["/api/chat - LLM Inference"]
+        E --> G["/api/symptom-checker - Diagnostics"]
     end
 
     subgraph External ["☁️ External AI Services"]
-        H["🤗 Hugging Face<br/>Meta-Llama-3-8B"]
-        I["🔮 Google Gemini<br/>@google/genai"]
-        J["🩺 Infermedica API<br/>Symptom Checker"]
+        H["Hugging Face - Meta-Llama-3-8B"]
+        I["Google Gemini - @google/genai"]
+        J["Infermedica API - Symptom Checker"]
     end
 
     subgraph Data ["🗄️ Data Layer"]
-        K[("MongoDB<br/>Chat History")]
-        L["🔥 Firebase Auth<br/>User Sessions"]
+        K[("MongoDB - Chat History")]
+        L["Firebase Auth - User Sessions"]
     end
 
     A -->|Google OAuth| L
@@ -185,9 +169,7 @@ graph TD
 
 ### Prerequisites
 
-Make sure you have these installed:
-
-- **[Node.js](https://nodejs.org/)** v18+ (or use [Bun](https://bun.sh/))
+- **[Node.js](https://nodejs.org/)** v18+
 - **[MongoDB](https://mongodb.com/)** locally on port `27017`, or a [MongoDB Atlas](https://www.mongodb.com/atlas) URI
 - **[Git](https://git-scm.com/)**
 
@@ -214,12 +196,12 @@ PORT=5000
 # MongoDB Connection
 MONGODB_URI=mongodb://localhost:27017/chopperdb
 
-# 🤖 AI / LLM Configuration
+# AI / LLM Configuration
 OPENAI_API_KEY=your_huggingface_or_openai_api_key
 OPENAI_BASE_URL=https://api-inference.huggingface.co/v1/
 OPENAI_MODEL=meta-llama/Meta-Llama-3-8B-Instruct
 
-# 🩺 Infermedica Diagnostic API
+# Infermedica Diagnostic API
 INFERMEDICA_APP_ID=your_infermedica_app_id
 INFERMEDICA_API_KEY=your_infermedica_api_key
 ```
@@ -243,8 +225,6 @@ VITE_BACKEND_URL=http://localhost:5000/api
 ---
 
 ## 💻 Installation & Running
-
-### Option 1 — Manual Setup
 
 #### 1. Start the Backend API
 
@@ -293,7 +273,7 @@ curl -X POST http://localhost:5000/api/symptom-checker \
 ## 📁 Project Structure
 
 ```
-chHealthChatBot/          ← Repo Root
+chHealthChatBot/          <- Repo Root
 ├── 📁 src/
 │   ├── 📁 components/    # Chatbot · Header · Login · DiseasesList · Footer · Message
 │   ├── 📁 services/      # API call wrappers (chat, symptom checker)
@@ -307,7 +287,7 @@ chHealthChatBot/          ← Repo Root
 │   ├── 📁 routes/        # chatRoutes.js · symptomRoutes.js
 │   ├── 📁 services/      # LLM & Infermedica service logic
 │   └── server.js         # Express app entry point
-├── 📁 screenshots/       # Project screenshots (used in this README)
+├── 📁 screenshots/       # Project screenshots
 ├── medicine.gif          # Header animation asset
 ├── server.ts             # Express SSR / proxy server
 ├── vite.config.ts        # Vite build configuration
