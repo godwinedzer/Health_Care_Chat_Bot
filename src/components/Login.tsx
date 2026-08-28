@@ -41,8 +41,8 @@ const LoginSignup: React.FC = () => {
         window.dispatchEvent(new Event("storage")); // ✅ Trigger UI update
         navigate("/chatbot"); // ✅ Navigate instantly
       }
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      setError((err as Error).message);
     }
   };
 

@@ -95,10 +95,10 @@ const Chatbot: React.FC = () => {
         { text: finalResponse || "⚠️ No valid medical response found.", isUser: false },
       ]);
 
-    } catch (error) {
+    } catch (error: any) {
       setMessages((prev) => [
         ...prev.slice(0, -1),
-        { text: "⚠️ Error getting response!", isUser: false },
+        { text: `⚠️ Error: ${error.message}`, isUser: false },
       ]);
     }
   }, [input]);
@@ -116,7 +116,6 @@ const Chatbot: React.FC = () => {
         ))}
         <div ref={messagesEndRef} />
       </div>
-
       <div className="chatbot-input-container">
         <input
           type="text"
@@ -138,3 +137,4 @@ const Chatbot: React.FC = () => {
 };
 
 export default Chatbot;
+
