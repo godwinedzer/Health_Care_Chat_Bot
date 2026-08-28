@@ -72,13 +72,6 @@ Users can ask natural language health queries and receive structured responses �
   <em>VS Code side-by-side: React component code on the left, live chatbot on the right with symptom checker panel.</em>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="./screenshots/vscode_dev2.png" alt="VS Code - AI Diagnosis" width="90%" />
-  <br/>
-  <em>Live AI diagnosis in development — the symptom checker returns a structured list of possible conditions.</em>
-</div>
 
 <br/>
 
@@ -325,3 +318,4 @@ chHealthChatBot/          <- Repo Root
 *"I don't want to conquer anything. I just think the guy with the most freedom in this ocean... is the Pirate King!"* — but Chopper prefers to heal 🍵
 
 </div>
+
